@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Boots strap 5 CSS link Start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Boots strap 5 CSS link End -->
+
+
+    <!-- google fonts link Start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <!-- google fonts link End -->
+
+
+    <!-- google font awesome it's use for icons Bootstrap CDN Start-->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <!-- google font awesome Bootstrap CDN End-->
+
+
+
+    <!--  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+
+
+    <!-- Boots strap 5 CSS link Start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Boots strap 5 CSS link End -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbarstyle.css">
+
+    <!-- Bootstrap icon link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        ul>li>span {
+            color: #a4a6a9;
+            font-weight: normal;
+            margin-right: 4px;
+        }
+
+        .customer-rev>ul>li {
+            list-style: none;
+        }
+
+        ul.mf-box-list>li {
+            list-style: none;
+            display: block;
+            margin-bottom: 0.9em;
+            color: #8c9398;
+            letter-spacing: 1px;
+            font-size: 0.9em;
+        }
+
+        .customer-rev div a {
+            text-decoration: none;
+            color: rgb(126, 124, 124);
+            font-size: 20px;
+        }
+
+        .left-ads-display li {
+            list-style: none;
+        }
+
+        .left-ads-display a {
+            text-decoration: none;
+            color: #8c9398;
+        }
+
+        .product-new-top {
+            padding: 2px 10px 3px 10px;
+        }
+
+        .money {
+            font-size: 20px;
+            font-weight: bold;
+            color: red;
+        }
+
+        .col-md-4 {
+            border: 1px solid black;
+            padding: 10px;
+            margin-left: 3%;
+            width: 225px;
+            height: 60vh;
+        }
+
+        .pupolar >.row{
+            margin-bottom: 20px;
+        }
+        .shop-now {
+            margin-top: 10px;
+        }
+
+        .btn-shop {
+            color: white !important;
+            text-decoration: none;
+            background-color: skyblue;
+            padding: 5px 20px;
+            margin-top: 30px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+   
+    <h1 class="text-center">Our SAILING</h1>
+
+    <section class="ab-info-main py-md-5 py-4">
+        <div class="container py-md-3">
+            <!-- top product -->
+            <div class="row">
+                <!-- product left -->
+                <div class="side-bar col-lg-4">
+                    <!-- prefence -->
+                    <div class="left-side my-4">
+                        <h3 class="sear-head">Occasion</h3>
+                        <ul class="mf-box-list">
+                            <li>
+                                <input type="checkbox" class="checked">
+                                <span class="span">Fishing</span>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checked">
+                                <span class="span">Luxury</span>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checked">
+                                <span class="span">Wediding</span>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checked">
+                                <span class="span">Sailing</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- // prefence -->
+                    <!-- discount -->
+                    <div class="left-side">
+                        <h3 class="sear-head">Discount</h3>
+                        <ul class="mf-box-list">
+                            <li>
+                                <input type="checkbox" class="checked">
+                                <span class="span">5% or More</span>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checked">
+                                <span class="span">10% or More</span>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checked">
+                                <span class="span">20% or More</span>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checked">
+                                <span class="span">30% or More</span>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checked">
+                                <span class="span">50% or More</span>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checked">
+                                <span class="span">60% or More</span>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- //discount -->
+                    <!-- reviews -->
+                    <div class="customer-rev left-side my-4">
+                        <h3 class="sear-head">Customer Review</h3>
+                        <ul class="mf-box-list">
+                            <div class="rating">
+                                <div class="rating_average">
+                                    <div class="star-outer">
+                                        <div class="star-inner"><a href="">&#9733; &#9733; &#9733; &#9733; &#9733;
+                                                5.0</a></div>
+                                        <div class="star-inner"><a href="">&#9733; &#9733; &#9733; &#9733; 4.0</a></div>
+                                        <div class="star-inner"><a href="">&#9733; &#9733; &#9733; 3.5</a></div>
+                                        <div class="star-inner"><a href="">&#9733; &#9733; 3.0</a></div>
+                                        <div class="star-inner"><a href="">&#9733; 2.5</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- //product left -->
+                <!-- product right -->
+                <div class="left-ads-display col-lg-8">
+                    <div class="row">
+                        <div class="col-md-4 product-men">
+                            <div class="product-shoe-info shoe text-center">
+                                <div class="men-thumb-item">
+                                    <img src="our FISHING images/fishing 1.webp" alt="" style="height: 225px; width: 200px;"
+                                        class="img-fluid">
+                                    <br>
+                                    <span class="product-new-top bg-dark">New</span>
+                                </div>
+                                <br>
+                                <div class="item-info-product">
+                                    <h4>
+                                        <a href="#">Serenity</a>
+                                        <hr class="w-75 ms-auto me-auto">
+                                    </h4>
+                                    <br>
+                                    <div class="product-price">
+                                        <div class="grid-price">
+                                            <span class="money">$675.00</span>
+                                        </div>
+                                    </div>
+                                    <ul class="stars">
+                                        <li>
+                                            <a href="#">
+                                                <div class="star-inner"><a href="" class="text-center"
+                                                        style="margin-right: 30px;">&#9733; &#9733; &#9733; &#9733;
+                                                        &#9733;</a></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 product-men">
+                            <div class="product-shoe-info shoe text-center">
+                                <div class="men-thumb-item">
+                                    <img src="our FISHING images/fishing 2.webp" alt="" style="height: 225px; width: 200px;"
+                                        class="img-fluid">
+                                    <br>
+                                    <span class="product-new-top bg-dark">New</span>
+                                </div>
+                                <br>
+                                <div class="item-info-product">
+                                    <h4>
+                                        <a href="#">Carpe Diem</a>
+                                        <hr class="w-75 ms-auto me-auto">
+                                    </h4>
+                                    <br>
+                                    <div class="product-price">
+                                        <div class="grid-price">
+                                            <span class="money">$475.00</span>
+                                        </div>
+                                    </div>
+                                    <ul class="stars">
+                                        <li>
+                                            <a href="#">
+                                                <div class="star-inner"><a href="#" style="margin-right: 30px;">&#9733;
+                                                        &#9733; &#9733; &#9733; &#9733;</a></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 product-men">
+                            <div class="product-shoe-info shoe text-center">
+                                <div class="men-thumb-item">
+                                    <img src="our FISHING images/fishing 3.jpg" alt="" style="height: 225px; width: 200px;"
+                                        class="img-fluid">
+                                    <br>
+                                    <span class="product-new-top bg-dark">New</span>
+                                </div>
+                                <br>
+                                <div class="item-info-product">
+                                    <h4>
+                                        <a href="#">MY WAY</a>
+                                        <hr class="w-75 ms-auto me-auto">
+                                    </h4>
+                                    <br>
+                                    <div class="product-price">
+                                        <div class="grid-price">
+                                            <span class="money">$575.00</span>
+                                        </div>
+                                    </div>
+                                    <ul class="stars">
+                                        <li>
+                                            <a href="#">
+                                                <div class="star-inner"><a href="#" style="margin-right: 30px;">&#9733;
+                                                        &#9733; &#9733; &#9733; &#9733;</a></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 product-men">
+                            <div class="product-shoe-info shoe text-center">
+                                <div class="men-thumb-item">
+                                    <img src="our FISHING images/fishing 4.jpg" alt="" style="height: 225px; width: 200px;"
+                                        class="img-fluid">
+                                    <br>
+                                    <span class="product-new-top bg-dark">New</span>
+                                </div>
+                                <br>
+                                <div class="item-info-product">
+                                    <h4>
+                                        <a href="#">ANDIAMO</a>
+                                        <hr class="w-75 ms-auto me-auto">
+                                    </h4>
+                                    <br>
+                                    <div class="product-price">
+                                        <div class="grid-price">
+                                            <span class="money">$575.00</span>
+                                        </div>
+                                    </div>
+                                    <ul class="stars">
+                                        <li>
+                                            <a href="#">
+                                                <div class="star-inner"><a href="#" style="margin-right: 30px;">&#9733;
+                                                        &#9733; &#9733; &#9733; &#9733;</a></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 product-men">
+                            <div class="product-shoe-info shoe text-center">
+                                <div class="men-thumb-item">
+                                    <img src="our FISHING images/fishing 5.webp" alt="" style="height: 225px; width: 200px;"
+                                        class="img-fluid">
+                                    <br>
+                                    <span class="product-new-top bg-dark">New</span>
+                                </div>
+                                <br>
+                                <div class="item-info-product">
+                                    <h4>
+                                        <a href="#">DESNITY</a>
+                                        <hr class="w-75 ms-auto me-auto">
+                                    </h4>
+                                    <br>
+                                    <div class="product-price">
+                                        <div class="grid-price">
+                                            <span class="money">$575.00</span>
+                                        </div>
+                                    </div>
+                                    <ul class="stars">
+                                        <li>
+                                            <a href="#">
+                                                <div class="star-inner"><a href="#" style="margin-right: 30px;">&#9733;
+                                                        &#9733; &#9733; &#9733; &#9733;</a></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 product-men">
+                            <div class="product-shoe-info shoe text-center">
+                                <div class="men-thumb-item">
+                                    <img src="our FISHING images/fishing 6.jpg" alt="" style="height: 225px; width: 200px;"
+                                        class="img-fluid">
+                                    <br>
+                                    <span class="product-new-top bg-dark">New</span>
+                                </div>
+                                <br>
+                                <div class="item-info-product">
+                                    <h4>
+                                        <a href="#">ENDLESS SUMMER</a>
+                                        <hr class="w-75 ms-auto me-auto">
+                                    </h4>
+                                    <br>
+                                    <div class="product-price">
+                                        <div class="grid-price">
+                                            <span class="money">$575.00</span>
+                                        </div>
+                                    </div>
+                                    <ul class="stars">
+                                        <li>
+                                            <a href="#">
+                                                <div class="star-inner"><a href="#" style="margin-right: 30px;">&#9733;
+                                                        &#9733; &#9733; &#9733; &#9733;</a></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 product-men">
+                            <div class="product-shoe-info shoe text-center">
+                                <div class="men-thumb-item">
+                                    <img src="our FISHING images/fishing 7.webp" alt="" style="height: 225px; width: 200px;"
+                                        class="img-fluid">
+                                    <br>
+                                    <span class="product-new-top bg-dark">New</span>
+                                </div>
+                                <br>
+                                <div class="item-info-product">
+                                    <h4>
+                                        <a href="#">BLUE MOON</a>
+                                        <hr class="w-75 ms-auto me-auto">
+                                    </h4>
+                                    <br>
+                                    <div class="product-price">
+                                        <div class="grid-price">
+                                            <span class="money">$675.00</span>
+                                        </div>
+                                    </div>
+                                    <ul class="stars">
+                                        <li>
+                                            <a href="#">
+                                                <div class="star-inner"><a href="#" style="margin-right: 30px;">&#9733;
+                                                        &#9733; &#9733; &#9733; &#9733;</a></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 product-men">
+                            <div class="product-shoe-info shoe text-center">
+                                <div class="men-thumb-item">
+                                    <img src="our FISHING images/fishing 8.jpg" alt="" style="height: 225px; width: 200px;"
+                                        class="img-fluid">
+                                    <br>
+                                    <span class="product-new-top bg-dark">New</span>
+                                </div>
+                                <br>
+                                <div class="item-info-product">
+                                    <h4>
+                                        <a href="#">AMURA ll</a>
+                                        <hr class="w-75 ms-auto me-auto">
+                                    </h4>
+                                    <br>
+                                    <div class="product-price">
+                                        <div class="grid-price">
+                                            <span class="money">$775.00</span>
+                                        </div>
+                                    </div>
+                                    <ul class="stars">
+                                        <li>
+                                            <a href="#">
+                                                <div class="star-inner"><a href="#" style="margin-right: 30px;">&#9733;
+                                                        &#9733; &#9733; &#9733; &#9733;</a></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 product-men">
+                            <div class="product-shoe-info shoe text-center">
+                                <div class="men-thumb-item">
+                                    <img src="our FISHING images/fishing 9.jpg" alt="" style="height: 225px; width: 200px;"
+                                        class="img-fluid">
+                                    <br>
+                                    <span class="product-new-top bg-dark">New</span>
+                                </div>
+                                <br>
+                                <div class="item-info-product">
+                                    <h4>
+                                        <a href="#">ANTISAN</a>
+                                        <hr class="w-50 ms-auto me-auto">
+                                    </h4>
+                                    <br>
+                                    <div class="product-price">
+                                        <div class="grid-price">
+                                            <span class="money">$875.00</span>
+                                        </div>
+                                    </div>
+                                    <ul class="stars">
+                                        <li>
+                                            <a href="#">
+                                                <div class="star-inner"><a href="#" style="margin-right: 30px;">&#9733;
+                                                        &#9733; &#9733; &#9733; &#9733;</a></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!-- Popular Products section start -->
+    <section class="popular py-5">
+        <div class="container pb-lg3">
+            <h1 class="title text-center">Popular Products</h1>
+            <br>
+            <div class="row mb-5">
+                <div class="col-md-6 latest-left">
+                    <div class="product-shoe-info shoe text-center">
+                        <img src="our FISHING images/plpr 1.jpg" height="300px" width="600px"
+                            class="img-fluid" alt="">
+                        <div class="shop-now">
+                            <a href="shop.html" class="btn-shop">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 latest-left">
+                    <div class="product-shoe-info shoe text-center">
+                        <img src="our FISHING images/plpr 2.jpg" height="300px" width="600px"
+                            class="img-fluid" alt="">
+                        <div class="shop-now">
+                            <a href="shop.html" class="btn-shop">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-md-6 latest-left">
+                    <div class="product-shoe-info shoe text-center">
+                        <img src="our FISHING images/plpr 3.jpg" height="300px" width="600px"
+                            class="img-fluid" alt="">
+                        <div class="shop-now">
+                            <a href="shop.html" class="btn-shop">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 latest-left">
+                    <div class="product-shoe-info shoe text-center">
+                        <img src="our FISHING images/plpr 4.jpg" height="400px" width="600px"
+                            class="img-fluid" alt="">
+                        <div class="shop-now">
+                            <a href="shop.html" class="btn-shop">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Popular Products section end -->
+     
+      <!-- ============= -->
+             <!-- Footer -->
+
+             <footer data-aos="fade-right" class="bg-dark text-white pt-4 pb-5">
+
+                <div class="container text-md-left">
+          
+                  <div class="row  text-md-left">
+          
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                      <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Marina Fleet</h5>
+                      <p>The Pakistan Fleet Marine Forces (FMF) are combined general and special purpose forces within the Pakistan Department of the Navy that perform offensive amphibious or expeditionary warfare and defensive maritime employment.</p>
+                    </div>
+          
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                      <h5 class="text-uppercase mb-4 font-weight-bold text-warning">PRDUCTS
+                      </h5>
+                      <p>
+                        <a href="gallery.html" class="text-white" style="text-decoration: none;">GALLERY</a>
+                      </p>
+                      <p>
+                        <a href="luxury.html" class="text-white" style="text-decoration: none;">LUXURY</a>
+                      </p>
+                      <p>
+                        <a href="sailing.html" class="text-white" style="text-decoration: none;">SAILING</a>
+                      </p>
+                      <p>
+                        <a href="fishing.html" class="text-white" style="text-decoration: none;">FISHING</a>
+                      </p>
+                    </div>
+          
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                      <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Useful Links</h5>
+                      <p>
+                        <a href="home.html" class="text-white" style="text-decoration: none;">Home</a>
+                      </p>
+                      <p>
+                        <a href="about_us.html" class="text-white" style="text-decoration: none;">About Us</a>
+                      </p>
+                      <p>
+                        <a href="contact_us.html" class="text-white" style="text-decoration: none;">Contact Us</a>
+                      </p>
+                      <p>
+                        <a href="feedback.html" class="text-white" style="text-decoration: none;">Feedback</a>
+                      </p>
+                    </div>
+          
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                      <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+                      <p>
+                        <i class="fas fa-home mr-3"></i>New Muzaffar Abad Colony
+                      </p>
+                      <p>
+                        <i class="fas fa-envelope mr-3"></i>aptech@gmail.com
+                      </p>
+                      <p>
+                        <i class="fas fa-phone mr-3"></i>+92 31276760
+                      </p>
+                      <p>
+                        <i class="fas fa-print mr-3"></i>+01 335 366 99
+                      </p>
+                    </div>
+                  </div>
+          
+                  <hr class="mb-4">
+          
+                  <div class="row align-items-center">
+          
+                    <div class="col-md-7 col-lg-8">
+                      <p>©Copyright <strong>Marina-Fleet.</strong> All Rights Reserved <br>Designed by 
+                      <a style="text-decoration: none;" href="#">
+                        <strong class="text-warning">Marina-Fleet.</strong>
+                      </a></p>
+                    </div>
+          
+                    <div class="col-md-5 col-lg-4">
+                      <div class="text-center text-md-right">
+          
+                        <ul class="list-unstyled list-inline">
+                          <li class="list-inline-item">
+                            <a href="facebook.com" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="https://twitter.com/" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="https://myaccount.google.com/intro/profile" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-google-plus"></i></a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/asad-ashraf-73aa38185/" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-linkedin-in"></i></a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="https://www.instagram.com/" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-instagram"></i></a>
+                          </li>
+          
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+
+              <script>
+                const navEl = document.querySelector('.navbar')
+            
+                window.addEventListener('scroll', () => {
+                  if (window.scrollY >= 56) {
+                    navEl.classList.add('navbar-scrolled')
+                  } else if (window.scrollY < 56) {
+                    navEl.classList.remove('navbar-scrolled')
+                  }
+                }
+                )
+              </script>
+    
+    <!-- Boots strap 5 JS links Start -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!-- Boots strap 5 JS links End -->
+
+    <!-- Bootstrap icon script link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

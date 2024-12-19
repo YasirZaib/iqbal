@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!--  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- google fonts link Start -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+  <!-- google fonts link End -->
+
+  <!-- Boots strap 5 CSS link Start -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Boots strap 5 CSS link End -->
+
+
+  <!-- Google font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<style>
+        .map-form{
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            align-items: center;
+            font-family: "Poppins", sans-serif;
+        }
+        .contact-in{
+            width: 80%;
+            height: auto;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px 0px #666;
+        }
+        .contact-map{
+            width: 100%;
+            height: auto;
+            flex: 45%;
+        }
+        .contact-map iframe{
+            width: 100%;
+            height: 100%;
+            
+        }
+        .contact-form{
+            width: 100%;
+            height: auto;
+            flex: 45%;
+            padding: 30px;
+           
+            text-align: center;
+        }
+        .contact-form h1{
+            margin-bottom: 10px;
+        }
+        .contact-form-text{
+            width: 95%;
+            height: 40px;
+            color: #000;
+            background-origin: 1px solid #bcbcbc;
+            border-radius: 50px;
+            outline: none;
+            margin-bottom: 20px;
+            padding: 15px;
+            
+        }
+        .contact-form-text::placeholder{
+            color: #aaa;
+        }
+        .contact-form-textarea{
+            width: 95%;
+            height: 130px;
+            color: #000;
+            background-origin: 1px solid #bcbcbc;
+            border-radius: 10px;
+            outline: none;
+            margin-bottom: 20px;
+            padding: 15px;
+            font-family: "Poppins", sans-serif;
+        }
+        .contact-form-textarea::placeholder{
+            color: #aaa;
+        }
+        .contact-form-btn{
+            width: 100% !important;
+            border: none;
+            outline: none;
+            border-radius: 50px;
+            background: #8e2de2;
+            color: #fff;
+            text-transform: uppercase;
+            padding: 10px 0;
+            cursor: pointer;
+            font-size: 18px;
+
+        }
+    </style>
+
+<body>
+  <section class="head-nav">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="nav logo.webp" alt="Logo" height="100%" width="100%"></a>
+
+        <!-- Button trigger modal -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#navbar-modal"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+          <input type="checkbox" name="toggle-menu" id="toggle-menu">
+          <label for="toggle-menu" type="button" class="toggle-btn">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </label>
+
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="luxury.html">LUXURY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sailing.html">SAILING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="fishing.html">FISHING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about_us.html">ABOUTUS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact_us.html">CONTACTUS</a>
+            </li>
+            <li class="nav-item-btn">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal fade" data-bs-backdrop="static" id="navbar-modal" tabindex="-1"
+      aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <img src="nav logo.webp" alt="Logo">
+          </div>
+
+          <div class="modal-body">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"href="home.html"><i class="fas fa-home"></i>HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html"><i class="fas fa-image"></i>GALLERY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="luxury.html"><i class="fas fa-star"></i>LUXURY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sailing.html"><i class="fas fa-sailboat"></i>SAILING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="fishing.html"><i class="fas fa-fish"></i>FISHING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about_us.html"><i class="fas fa-users"></i>ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact_us.html"><i class="fas fa-reply-all"></i>CONTACT US</a>
+              </li>
+              <li class="nav-item-btn">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><label
+                for="toggle-menu">Close</label></button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- slider -->
+
+  <!-- Slider start -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="margin-top: 110px;">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/slid 1 (2).jpg" class="d-block w-100" alt="">
+        <div class="carousel-caption d-md-block">
+          <h5>Enjoy With Marina Fleet</h5>
+          <p>Discover New Yachts ...!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/slider.jpg" class="img-fluid thumbnail" alt="">
+        <div class="carousel-caption d-md-block">
+          <h5>Enjoy With Marina Fleet</h5>
+          <p>Memorable Experience ...!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/sliderss.webp" class="d-block w-100" alt="">
+        <div class="carousel-caption d-md-block">
+          <h5>Enjoy With Marina Fleet</h5>
+          <p>Discover New Boats ...!</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+
+  </div>
+  <!-- Slider end -->
+
+ <section class="map-form bg-light">
+    <divc class="contact-in">
+        <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205173.16427002614!2d67.03384004649408!3d24.839831933108464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33a8057a55201%3A0xbd26e94080bd50e6!2sLandhi%20Town%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e1!3m2!1sen!2s!4v1733773618449!5m2!1sen!2s" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-form">
+            <h1>Contact Us</h1>
+            <form>
+                <input type="text" placeholder="Name" class="contact-form-text" />
+                <input type="text" placeholder="Email" class="contact-form-text" />
+                <textarea placeholder="Message" class="contact-form-textarea"></textarea>
+                <input type="submit" name="submit" class="contact-form-btn" />
+            </form>
+        </div>
+    </div>
+</section>
+
+   <!-- ============= -->
+  <!-- Footer -->
+
+  <footer data-aos="fade-right" class="bg-dark text-white pt-4 pb-5">
+
+    <div class="container text-md-left">
+
+      <div class="row  text-md-left">
+
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Marina Fleet</h5>
+          <p>The Pakistan Fleet Marine Forces (FMF) are combined general and special purpose forces within the Pakistan
+            Department of the Navy that perform offensive amphibious or expeditionary warfare and defensive maritime
+            employment.</p>
+        </div>
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">PRDUCTS
+          </h5>
+          <p>
+            <a href="gallery.html" class="text-white" style="text-decoration: none;">GALLERY</a>
+          </p>
+          <p>
+            <a href="luxury.html" class="text-white" style="text-decoration: none;">LUXURY</a>
+          </p>
+          <p>
+            <a href="sailing.html" class="text-white" style="text-decoration: none;">SAILING</a>
+          </p>
+          <p>
+            <a href="fishing.html" class="text-white" style="text-decoration: none;">FISHING</a>
+          </p>
+        </div>
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Useful Links</h5>
+          <p>
+            <a href="home.html" class="text-white" style="text-decoration: none;">Home</a>
+          </p>
+          <p>
+            <a href="about_us.html" class="text-white" style="text-decoration: none;">About Us</a>
+          </p>
+          <p>
+            <a href="contact_us.html" class="text-white" style="text-decoration: none;">Contact Us</a>
+          </p>
+          <p>
+            <a href="feedback.html" class="text-white" style="text-decoration: none;">Feedback</a>
+          </p>
+          <p>
+            <a href="sitemap.html" class="text-white" style="text-decoration: none;">Site Map</a>
+          </p>
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+          <p>
+            <i class="fas fa-home mr-3"></i> New Muzaffar Abad Colony
+          </p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> aptech@gmail.com
+          </p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> +92 31276760
+          </p>
+          <p>
+            <i class="fas fa-print mr-3"></i> +01 335 366 99
+          </p>
+        </div>
+      </div>
+
+      <hr class="mb-4">
+
+      <div class="row align-items-center">
+
+        <div class="col-md-7 col-lg-8">
+          <p>©Copyright <strong>Marina-Fleet.</strong> All Rights Reserved <br>Designed by
+            <a style="text-decoration: none;" href="#">
+              <strong class="text-warning">Marina-Fleet.</strong>
+            </a>
+          </p>
+        </div>
+
+        <div class="col-md-5 col-lg-4">
+          <div class="text-center text-md-right">
+
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="facebook.com" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://twitter.com/" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://myaccount.google.com/intro/profile" class="btn-floating btn-sm text-white"
+                  style="font-size: 23px;"><i class="fab fa-google-plus"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/asad-ashraf-73aa38185/" class="btn-floating btn-sm text-white"
+                  style="font-size: 23px;"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-instagram"></i></a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script>
+    const navEl = document.querySelector('.navbar')
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= 56) {
+        navEl.classList.add('navbar-scrolled')
+      } else if (window.scrollY < 56) {
+        navEl.classList.remove('navbar-scrolled')
+      }
+    }
+    )
+  </script>
+
+  <!-- Boots strap 5 JS links Start -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <!-- Boots strap 5 JS links End -->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

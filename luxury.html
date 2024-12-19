@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!--  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- google fonts link Start -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+  <!-- google fonts link End -->
+
+  <!-- Boots strap 5 CSS link Start -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Boots strap 5 CSS link End -->
+
+  
+<!-- Google font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    h1{
+font-family: "Dancing Script", cursive;
+}
+   ul>li>span {
+       color: #a4a6a9;
+       font-weight: normal;
+       margin-right: 4px;
+   }
+
+   .customer-rev>ul>li {
+       list-style: none;
+   }
+
+   ul .mf-box-list>li {
+       list-style: none;
+       display: block;
+       margin-bottom: 0.9em;
+       color: #8c9398;
+       letter-spacing: 1px;
+       font-size: 0.9em;
+   }
+
+   .customer-rev div a {
+       text-decoration: none;
+       color: rgb(126, 124, 124);
+       font-size: 20px;
+   }
+
+   .left-ads-display li {
+       list-style: none;
+   }
+
+   .left-ads-display a {
+       text-decoration: none;
+       color: #8c9398;
+   }
+
+   .product-new-top {
+       padding: 2px 10px 3px 10px;
+   }
+
+   .money {
+       font-size: 20px;
+       font-weight: bold;
+       color: red;
+   }
+
+   .product-men {
+       border: 1px solid black;
+       padding: 10px;
+       margin-left: 3%;
+       width: 225px;
+       height: 60vh;
+   }
+
+   .pupolar >.row{
+       margin-bottom: 20px;
+   }
+   .shop-now {
+       margin-top: 10px;
+   }
+
+   .btn-shop {
+       color: white !important;
+       text-decoration: none;
+       background-color: skyblue;
+       padding: 5px 20px;
+       margin-top: 30px;
+       border-radius: 20px;
+   }
+</style>
+
+
+</head>
+
+<body>
+    <section class="head-nav">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand" href="#"><img src="nav logo.webp" alt="Logo" height="100%" width="100%"></a>
+    
+            <!-- Button trigger modal -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#navbar-modal"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    
+              <input type="checkbox" name="toggle-menu" id="toggle-menu">
+              <label for="toggle-menu" type="button" class="toggle-btn">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </label>
+    
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">GALLERY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="luxury.html">LUXURY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sailing.html">SAILING</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="fishing.html">FISHING</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about_us.html">ABOUTUS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact_us.html">CONTACTUS</a>
+                </li>
+                <li class="nav-item-btn">
+                  <a class="nav-link" href="#">Login</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    
+        <!-- Modal -->
+        <div class="modal fade" data-bs-backdrop="static" id="navbar-modal" tabindex="-1"
+          aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+    
+              <div class="modal-header">
+                <img src="nav logo.webp" alt="Logo">
+              </div>
+    
+              <div class="modal-body">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href=""><i class="fas fa-home"></i>HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="gallery.html"><i class="fas fa-image"></i>GALLERY</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="luxury.html"><i class="fas fa-star"></i>LUXURY</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sailing.html"><i class="fas fa-sailboat"></i>SAILING</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="fishing.html"><i class="fas fa-fish"></i>FISHING</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about_us.html"><i class="fas fa-users"></i>ABOUTUS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact_us.html"><i class="fas fa-reply-all"></i>CONTACTUS</a>
+                  </li>
+                  <li class="nav-item-btn">
+                    <a class="nav-link" href="#">Login</a>
+                  </li>
+                </ul>
+              </div>
+    
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><label
+                    for="toggle-menu">Close</label></button>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+      </section>
+    
+    
+      <!-- slider -->
+    
+      <!-- Slider start -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="margin-top: 110px;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+    
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/slid 1 (2).jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption d-md-block">
+              <h5>Enjoy With Marina Fleet</h5>
+              <p>Discover New Yachts ...!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/slider.jpg" class="img-fluid thumbnail" alt="">
+            <div class="carousel-caption d-md-block">
+              <h5>Enjoy With Marina Fleet</h5>
+              <p>Memorable Experience ...!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/sliderss.webp" class="d-block w-100" alt="">
+            <div class="carousel-caption d-md-block">
+              <h5>Enjoy With Marina Fleet</h5>
+              <p>Discover New Boats ...!</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    
+    
+      </div>
+      <!-- Slider end -->
+    
+  <br>
+  <br>
+<div class="col-md-12 col-lg-12 col-12 text-center">
+  <h1 data-aos="fade-up" data-aos-offset="200">OUR <span class="text-primary"> LUXURY</span></h1>
+  <hr  class="w-25 m-auto">
+</div>
+  <br>
+  <br>
+  <br>
+  <section class="ab-info-main">
+      <div class="container py-md-3">
+          <!-- top product -->
+          <div class="row">
+              <!-- product left -->
+              <div class="side-bar col-lg-4">
+                  <!-- prefence -->
+                  <div class="left-side my-4">
+                      <h3 class="sear-head">Occasion</h3>
+                      <ul class="mf-box-list">
+                          <li>
+                              <input type="checkbox" class="checked">
+                              <span class="span">Fishing</span>
+                          </li>
+                          <li>
+                              <input type="checkbox" class="checked">
+                              <span class="span">Luxury</span>
+                          </li>
+                          <li>
+                              <input type="checkbox" class="checked">
+                              <span class="span">Wediding</span>
+                          </li>
+                          <li>
+                              <input type="checkbox" class="checked">
+                              <span class="span">Sailing</span>
+                          </li>
+                      </ul>
+                  </div>
+                  <!-- // prefence -->
+                  <!-- discount -->
+                  <div class="left-side">
+                      <h3 class="sear-head">Discount</h3>
+                      <ul class="mf-box-list">
+                          <li>
+                              <input type="checkbox" class="checked">
+                              <span class="span">5% or More</span>
+                          </li>
+                          <li>
+                              <input type="checkbox" class="checked">
+                              <span class="span">10% or More</span>
+                          </li>
+                          <li>
+                              <input type="checkbox" class="checked">
+                              <span class="span">20% or More</span>
+                          </li>
+                          <li>
+                              <input type="checkbox" class="checked">
+                              <span class="span">30% or More</span>
+                          </li>
+                          <li>
+                              <input type="checkbox" class="checked">
+                              <span class="span">50% or More</span>
+                          </li>
+                          <li>
+                              <input type="checkbox" class="checked">
+                              <span class="span">60% or More</span>
+                          </li>
+                      </ul>
+
+                  </div>
+                  <!-- //discount -->
+                  <!-- reviews -->
+                  <div class="customer-rev left-side my-4">
+                      <h3 class="sear-head">Customer Review</h3>
+                      <ul class="mf-box-list">
+                          <div class="rating">
+                              <div class="rating_average">
+                                  <div class="star-outer">
+                                      <div class="star-inner"><a href="">&#9733; &#9733; &#9733; &#9733; &#9733;
+                                              5.0</a></div>
+                                      <div class="star-inner"><a href="">&#9733; &#9733; &#9733; &#9733; 4.0</a></div>
+                                      <div class="star-inner"><a href="">&#9733; &#9733; &#9733; 3.5</a></div>
+                                      <div class="star-inner"><a href="">&#9733; &#9733; 3.0</a></div>
+                                      <div class="star-inner"><a href="">&#9733; 2.5</a></div>
+                                  </div>
+                              </div>
+                          </div>
+                      </ul>
+                  </div>
+              </div>
+
+              <!-- //product left -->
+              <!-- product right -->
+              <div class="left-ads-display col-lg-8">
+                  <div class="row">
+                      <div class="col-md-4 product-men">
+                          <div class="product-shoe-info shoe text-center">
+                              <div class="men-thumb-item">
+                                  <img src="LUXURY images/LUX 1.jpg" alt="" style="height: 225px; width: 200px;"
+                                      class="img-fluid">
+                                  <br>
+                                  <span class="product-new-top bg-dark">New</span>
+                              </div>
+                              <br>
+                              <div class="item-info-product">
+                                  <h4>
+                                      <a href="#">Serenity</a>
+                                      <hr class="w-75 ms-auto me-auto">
+                                  </h4>
+                                  <br>
+                                  <div class="product-price">
+                                      <div class="grid-price">
+                                          <span class="money">$675.00</span>
+                                      </div>
+                                  </div>
+                                  <ul class="stars">
+                                      <li>
+                                          <a href="#">
+                                              <div class="star-inner"><a href="" class="text-center"
+                                                      style="margin-right: 30px;">&#9733; &#9733; &#9733; &#9733;
+                                                      &#9733;</a></div>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-4 product-men">
+                          <div class="product-shoe-info shoe text-center">
+                              <div class="men-thumb-item">
+                                  <img src="LUXURY images/LUX 2.jpg" alt="" style="height: 225px; width: 200px;"
+                                      class="img-fluid">
+                                  <br>
+                                  <span class="product-new-top bg-dark">New</span>
+                              </div>
+                              <br>
+                              <div class="item-info-product">
+                                  <h4>
+                                      <a href="#">Carpe Diem</a>
+                                      <hr class="w-75 ms-auto me-auto">
+                                  </h4>
+                                  <br>
+                                  <div class="product-price">
+                                      <div class="grid-price">
+                                          <span class="money">$475.00</span>
+                                      </div>
+                                  </div>
+                                  <ul class="stars">
+                                      <li>
+                                          <a href="#">
+                                              <div class="star-inner"><a href="#" style="margin-right: 30px;">&#9733;
+                                                      &#9733; &#9733; &#9733; &#9733;</a></div>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-4 product-men">
+                          <div class="product-shoe-info shoe text-center">
+                              <div class="men-thumb-item">
+                                  <img src="LUXURY images/LUX 3.jpg" alt="" style="height: 225px; width: 200px;"
+                                      class="img-fluid">
+                                  <br>
+                                  <span class="product-new-top bg-dark">New</span>
+                              </div>
+                              <br>
+                              <div class="item-info-product">
+                                  <h4>
+                                      <a href="#">MY WAY</a>
+                                      <hr class="w-75 ms-auto me-auto">
+                                  </h4>
+                                  <br>
+                                  <div class="product-price">
+                                      <div class="grid-price">
+                                          <span class="money">$575.00</span>
+                                      </div>
+                                  </div>
+                                  <ul class="stars">
+                                      <li>
+                                          <a href="#">
+                                              <div class="star-inner"><a href="#" style="margin-right: 30px;">&#9733;
+                                                      &#9733; &#9733; &#9733; &#9733;</a></div>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-4 product-men">
+                          <div class="product-shoe-info shoe text-center">
+                              <div class="men-thumb-item">
+                                  <img src="LUXURY images/LUX 4.jpg" alt="" style="height: 225px; width: 200px;"
+                                      class="img-fluid">
+                                  <br>
+                                  <span class="product-new-top bg-dark">New</span>
+                              </div>
+                              <br>
+                              <div class="item-info-product">
+                                  <h4>
+                                      <a href="#">ANDIAMO</a>
+                                      <hr class="w-75 ms-auto me-auto">
+                                  </h4>
+                                  <br>
+                                  <div class="product-price">
+                                      <div class="grid-price">
+                                          <span class="money">$575.00</span>
+                                      </div>
+                                  </div>
+                                  <ul class="stars">
+                                      <li>
+                                          <a href="#">
+                                              <div class="star-inner"><a href="#" style="margin-right: 30px;">&#9733;
+                                                      &#9733; &#9733; &#9733; &#9733;</a></div>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-4 product-men">
+                          <div class="product-shoe-info shoe text-center">
+                              <div class="men-thumb-item">
+                                  <img src="LUXURY images/LUX 5.jpg" alt="" style="height: 225px; width: 200px;"
+                                      class="img-fluid">
+                                  <br>
+                                  <span class="product-new-top bg-dark">New</span>
+                              </div>
+                              <br>
+                              <div class="item-info-product">
+                                  <h4>
+                                      <a href="#">DESNITY</a>
+                                      <hr class="w-75 ms-auto me-auto">
+                                  </h4>
+                                  <br>
+                                  <div class="product-price">
+                                      <div class="grid-price">
+                                          <span class="money">$575.00</span>
+                                      </div>
+                                  </div>
+                                  <ul class="stars">
+                                      <li>
+                                          <a href="#">
+                                              <div class="star-inner"><a href="#" style="margin-right: 30px;">&#9733;
+                                                      &#9733; &#9733; &#9733; &#9733;</a></div>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-4 product-men">
+                          <div class="product-shoe-info shoe text-center">
+                              <div class="men-thumb-item">
+                                  <img src="LUXURY images/LUX 6.jpg" alt="" style="height: 225px; width: 200px;"
+                                      class="img-fluid">
+                                  <br>
+                                  <span class="product-new-top bg-dark">New</span>
+                              </div>
+                              <br>
+                              <div class="item-info-product">
+                                  <h4>
+                                      <a href="#">ENDLESS SUMMER</a>
+                                      <hr class="w-75 ms-auto me-auto">
+                                  </h4>
+                                  <br>
+                                  <div class="product-price">
+                                      <div class="grid-price">
+                                          <span class="money">$575.00</span>
+                                      </div>
+                                  </div>
+                                  <ul class="stars">
+                                      <li>
+                                          <a href="#">
+                                              <div class="star-inner"><a href="#" style="margin-right: 30px;">&#9733;
+                                                      &#9733; &#9733; &#9733; &#9733;</a></div>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-4 product-men">
+                          <div class="product-shoe-info shoe text-center">
+                              <div class="men-thumb-item">
+                                  <img src="LUXURY images/LUX 7.jpg" alt="" style="height: 225px; width: 200px;"
+                                      class="img-fluid">
+                                  <br>
+                                  <span class="product-new-top bg-dark">New</span>
+                              </div>
+                              <br>
+                              <div class="item-info-product">
+                                  <h4>
+                                      <a href="#">BLUE MOON</a>
+                                      <hr class="w-75 ms-auto me-auto">
+                                  </h4>
+                                  <br>
+                                  <div class="product-price">
+                                      <div class="grid-price">
+                                          <span class="money">$675.00</span>
+                                      </div>
+                                  </div>
+                                  <ul class="stars">
+                                      <li>
+                                          <a href="#">
+                                              <div class="star-inner"><a href="#" style="margin-right: 30px;">&#9733;
+                                                      &#9733; &#9733; &#9733; &#9733;</a></div>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-4 product-men">
+                          <div class="product-shoe-info shoe text-center">
+                              <div class="men-thumb-item">
+                                  <img src="LUXURY images/LUX 8.jpg" alt="" style="height: 225px; width: 200px;"
+                                      class="img-fluid">
+                                  <br>
+                                  <span class="product-new-top bg-dark">New</span>
+                              </div>
+                              <br>
+                              <div class="item-info-product">
+                                  <h4>
+                                      <a href="#">AMURA ll</a>
+                                      <hr class="w-75 ms-auto me-auto">
+                                  </h4>
+                                  <br>
+                                  <div class="product-price">
+                                      <div class="grid-price">
+                                          <span class="money">$775.00</span>
+                                      </div>
+                                  </div>
+                                  <ul class="stars">
+                                      <li>
+                                          <a href="#">
+                                              <div class="star-inner"><a href="#" style="margin-right: 30px;">&#9733;
+                                                      &#9733; &#9733; &#9733; &#9733;</a></div>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-4 product-men">
+                          <div class="product-shoe-info shoe text-center">
+                              <div class="men-thumb-item">
+                                  <img src="LUXURY images/LUX 9.jpg" alt="" style="height: 225px; width: 200px;"
+                                      class="img-fluid">
+                                  <br>
+                                  <span class="product-new-top bg-dark">New</span>
+                              </div>
+                              <br>
+                              <div class="item-info-product">
+                                  <h4>
+                                      <a href="#">ANTISAN</a>
+                                      <hr class="w-50 ms-auto me-auto">
+                                  </h4>
+                                  <br>
+                                  <div class="product-price">
+                                      <div class="grid-price">
+                                          <span class="money">$875.00</span>
+                                      </div>
+                                  </div>
+                                  <ul class="stars">
+                                      <li>
+                                          <a href="#">
+                                              <div class="star-inner"><a href="#" style="margin-right: 30px;">&#9733;
+                                                      &#9733; &#9733; &#9733; &#9733;</a></div>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <br>
+  <!-- Popular Products section start -->
+  <section class="popular py-5">
+      <div class="container pb-lg3">
+          <h1 class="title text-center">Popular Products</h1>
+          <br>
+          <div class="row mb-5">
+              <div class="col-md-6 latest-left">
+                  <div class="product-shoe-info shoe text-center">
+                      <img src="LUXURY images/Popular Products img 1.jpg" height="300px" width="600px"
+                          class="img-fluid" alt="">
+                      <div class="shop-now">
+                          <a href="shop.html" class="btn-shop">Shop Now</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 latest-left">
+                  <div class="product-shoe-info shoe text-center">
+                      <img src="LUXURY images/Popular Products img 2.jpg" height="300px" width="600px"
+                          class="img-fluid" alt="">
+                      <div class="shop-now">
+                          <a href="shop.html" class="btn-shop">Shop Now</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="row mb-5">
+              <div class="col-md-6 latest-left">
+                  <div class="product-shoe-info shoe text-center">
+                      <img src="LUXURY images/Popular Products img 3.jpg" height="300px" width="600px"
+                          class="img-fluid" alt="">
+                      <div class="shop-now">
+                          <a href="shop.html" class="btn-shop">Shop Now</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 latest-left">
+                  <div class="product-shoe-info shoe text-center">
+                      <img src="LUXURY images/Popular Products img 4.jpg" height="300px" width="600px"
+                          class="img-fluid" alt="">
+                      <div class="shop-now">
+                          <a href="shop.html" class="btn-shop">Shop Now</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+
+  <!-- ============= -->
+             <!-- Footer -->
+
+             <footer data-aos="fade-right" class="bg-dark text-white pt-4 pb-5">
+
+              <div class="container text-md-left">
+        
+                <div class="row  text-md-left">
+        
+                  <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Marina Fleet</h5>
+                    <p>The Pakistan Fleet Marine Forces (FMF) are combined general and special purpose forces within the Pakistan Department of the Navy that perform offensive amphibious or expeditionary warfare and defensive maritime employment.</p>
+                  </div>
+        
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">PRDUCTS
+                    </h5>
+                    <p>
+                      <a href="gallery.html" class="text-white" style="text-decoration: none;">GALLERY</a>
+                    </p>
+                    <p>
+                      <a href="luxury.html" class="text-white" style="text-decoration: none;">LUXURY</a>
+                    </p>
+                    <p>
+                      <a href="sailing.html" class="text-white" style="text-decoration: none;">SAILING</a>
+                    </p>
+                    <p>
+                      <a href="fishing.html" class="text-white" style="text-decoration: none;">FISHING</a>
+                    </p>
+                  </div>
+        
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Useful Links</h5>
+                    <p>
+                      <a href="home.html" class="text-white" style="text-decoration: none;">Home</a>
+                    </p>
+                    <p>
+                      <a href="about_us.html" class="text-white" style="text-decoration: none;">About Us</a>
+                    </p>
+                    <p>
+                      <a href="contact_us.html" class="text-white" style="text-decoration: none;">Contact Us</a>
+                    </p>
+                    <p>
+                      <a href="feedback.html" class="text-white" style="text-decoration: none;">Feedback</a>
+                    </p>
+                    <p>
+                      <a href="sitemap.html" class="text-white" style="text-decoration: none;">Site Map</a>
+                    </p>
+                  </div>
+        
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+                    <p>
+                      <i class="fas fa-home mr-3"></i>  New Muzaffar Abad Colony
+                    </p>
+                    <p>
+                      <i class="fas fa-envelope mr-3"></i>  aptech@gmail.com
+                    </p>
+                    <p>
+                      <i class="fas fa-phone mr-3"></i>  +92 31276760
+                    </p>
+                    <p>
+                      <i class="fas fa-print mr-3"></i>  +01 335 366 99
+                    </p>
+                  </div>
+                </div>
+        
+                <hr class="mb-4">
+        
+                <div class="row align-items-center">
+        
+                  <div class="col-md-7 col-lg-8">
+                    <p>©Copyright <strong>Marina-Fleet.</strong> All Rights Reserved <br>Designed by 
+                    <a style="text-decoration: none;" href="#">
+                      <strong class="text-warning">Marina-Fleet.</strong>
+                    </a></p>
+                  </div>
+        
+                  <div class="col-md-5 col-lg-4">
+                    <div class="text-center text-md-right">
+        
+                      <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                          <a href="facebook.com" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="https://twitter.com/" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="https://myaccount.google.com/intro/profile" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-google-plus"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="https://www.linkedin.com/in/asad-ashraf-73aa38185/" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="https://www.instagram.com/" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-instagram"></i></a>
+                        </li>
+        
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
+
+
+  
+
+  <script>
+    const navEl = document.querySelector('.navbar')
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= 56) {
+        navEl.classList.add('navbar-scrolled')
+      } else if (window.scrollY < 56) {
+        navEl.classList.remove('navbar-scrolled')
+      }
+    }
+    )
+  </script>
+
+  <!-- Boots strap 5 JS links Start -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <!-- Boots strap 5 JS links End -->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
